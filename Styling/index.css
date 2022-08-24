@@ -1,0 +1,152 @@
+body{
+    background-color: whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+*{
+    box-sizing: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+#nav-links li{
+ display: inline;
+ list-style: none;
+}
+
+#nav-links a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#nav-links a:hover{
+    color: white;
+}
+
+#nav-links{
+    background-color: red;
+    height: 0px;
+    margin-left: 25%;
+}
+
+#txtCoding{
+    color: White;
+    text-shadow: 2px 2px 2px grey;
+}
+
+#txtAddict{
+    color: cornflowerblue;
+}
+
+#nav-handles i{
+    color: cornflowerblue;
+}
+
+#nav-handles i:hover{
+    cursor: pointer;
+    color: white;
+}
+
+#nav-handles{
+    background-color: blue;
+    height: 0px;
+    margin-left: 70%;
+}
+
+#nav-header-txt{
+    background-color: green;
+    height: 0px;
+    width: 300px;
+}
+
+#nav-toggler{
+    margin-left: 95%;
+    display: none;
+}
+
+header{
+    height: 70px;
+    border-bottom: solid 1.8px cornflowerblue;
+    background-color: #000000;    
+}
+
+nav{
+    /* background-color: black; */
+    padding-top: 20px;
+}
+
+#scnd-nav-links{
+    margin-top: 3%;
+    background-color: white;
+    border-bottom: solid 1.8px cornflowerblue;
+    display: none;
+}
+
+#scnd-nav-links li{
+    list-style: none;
+    color: cornflowerblue;
+    opacity: 0.9;
+    transition: 0.3s;
+}
+
+#scnd-nav-links ul, li, a{
+    padding-left: 0px;
+}
+
+#scnd-nav-links a{
+    text-decoration: none;
+    font-size: 15px;
+    color: cornflowerblue;
+    opacity: 0.9;
+    transition: 0.3s;
+}
+
+#scnd-nav-links li:hover{
+    background-color: cornflowerblue;
+    color: white;
+    opacity: 1;
+}
+
+#scnd-nav-links a:hover{
+    color: white;
+    opacity: 1;
+}
+
+#scnd-nav-handles i{
+    color: cornflowerblue;
+}
+
+#scnd-nav-handles i:hover{
+    color: #000000;
+    cursor: pointer;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+}
+
+img{
+    width: 100%;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+   
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
